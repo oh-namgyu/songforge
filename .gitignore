@@ -1,0 +1,25 @@
+# Secrets / local config
+.env
+.env.local
+
+# Generated media & runs
+out/
+*.partial/
+*.part
+*.wav
+*.mp3
+*.mp4
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store

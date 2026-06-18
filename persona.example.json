@@ -1,0 +1,14 @@
+{
+  "name": "Your Artist Name",
+  "persona": "Describe the artist's voice, mood, and recurring themes. For example: a quiet late-night songwriter who writes tender, melancholic songs about cities, memory, and rain — intimate, cinematic, a little nostalgic.",
+  "lyric_rules": [
+    "keep imagery concrete and sensory",
+    "one clear emotional through-line per song",
+    "a memorable, repeatable chorus hook"
+  ],
+  "vocal": {
+    "style": "warm pop song, soft expressive vocals singing the lyrics throughout, gentle acoustic guitar and light piano, melodic and emotional",
+    "vocal_language": "en",
+    "seed": 42
+  }
+}

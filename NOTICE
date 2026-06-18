@@ -1,0 +1,19 @@
+SongForge
+Copyright 2026 SongForge contributors
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product orchestrates, but does not redistribute, the following external
+components. See THIRD_PARTY.md for the full list and their license terms:
+
+  - ACE-Step (Apache-2.0) — music/vocal generation backend, accessed over HTTP.
+    https://github.com/ace-step/ACE-Step
+  - ffmpeg — invoked as an external binary (not bundled).
+  - Pillow, numpy, requests, anthropic — Python dependencies (see THIRD_PARTY.md).
+
+Background video obtained via the optional Pexels integration is provided under
+the Pexels License (NOT public domain / CC0). Fonts are user-supplied.
+
+Lyrics and audio generated through SongForge are subject to the terms of the
+LLM and music backends you configure. SongForge makes no ownership claim over
+generated output.

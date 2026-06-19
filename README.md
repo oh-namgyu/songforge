@@ -1,5 +1,10 @@
 # SongForge
 
+[![CI](https://github.com/oh-namgyu/songforge/actions/workflows/ci.yml/badge.svg)](https://github.com/oh-namgyu/songforge/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/oh-namgyu/songforge)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/oh-namgyu/songforge)](https://github.com/oh-namgyu/songforge/releases)
+
+
 Turn a **topic** into a **finished, publishable song package** — AI lyrics →
 music + vocals → automatic chorus detection → a 9:16 short *and* a 16:9 music
 video → an upload-cadence plan. One command, one self-contained output folder.

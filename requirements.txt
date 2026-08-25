@@ -1,5 +1,5 @@
 # SongForge runtime dependencies (core)
-Pillow>=10.1  # caption cards (textcard); >=10.1 for scalable load_default(size)
+Pillow>=12.3.0  # caption cards (textcard); >=10.1 for scalable load_default(size)
 numpy         # chorus detection — RMS loudness profile
 anthropic     # default LLM provider (lyric writer); swap via LLMProvider adapter
 requests      # ACE-Step HTTP client (Pexels uses stdlib urllib)

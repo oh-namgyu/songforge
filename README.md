@@ -32,7 +32,7 @@ chorus detection (RMS)  →  teaser cut
   a YouTube auto-uploader (it stops at `UPLOAD.md`), or a DAW.
 
 ## Requirements
-- **Python 3.9+**
+- **Python 3.10+**
 - **ffmpeg** on your `PATH` (or set `FFMPEG_PATH`)
 - An **[ACE-Step](https://github.com/ace-step/ACE-Step) server** you can reach over
   HTTP — see [ACE_STEP_API.md](ACE_STEP_API.md). (Apache-2.0; GPU/Apple-Silicon recommended.)

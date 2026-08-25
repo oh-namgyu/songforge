@@ -3,7 +3,7 @@ name = "songforge"
 version = "0.1.0"
 description = "Turn a topic into a finished, publishable song package: lyrics -> music + vocals -> 9:16 short + 16:9 music video + upload plan."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "Apache-2.0" }
 keywords = ["music-generation", "ace-step", "video", "automation", "shorts", "llm"]
 dependencies = [

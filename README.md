@@ -5,6 +5,8 @@
 [![Release](https://img.shields.io/github/v/release/oh-namgyu/songforge)](https://github.com/oh-namgyu/songforge/releases)
 
 
+> **한글 요약** — 주제 하나를 완성곡 패키지로 만듭니다 — AI 작사 → 작곡+보컬(ACE-Step) → 후렴 감지 → 9:16 쇼츠와 16:9 뮤직비디오 렌더 → 업로드 플랜까지 자동화합니다.
+
 Turn a **topic** into a **finished, publishable song package** — AI lyrics →
 music + vocals → automatic chorus detection → a 9:16 short *and* a 16:9 music
 video → an upload-cadence plan. One command, one self-contained output folder.

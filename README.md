@@ -1,9 +1,8 @@
 # SongForge
 
 [![CI](https://github.com/oh-namgyu/songforge/actions/workflows/ci.yml/badge.svg)](https://github.com/oh-namgyu/songforge/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/oh-namgyu/songforge)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/oh-namgyu/songforge)](https://github.com/oh-namgyu/songforge/releases)
-
 
 > **한글 요약** — 주제 하나를 완성곡 패키지로 만듭니다 — AI 작사 → 작곡+보컬(ACE-Step) → 후렴 감지 → 9:16 쇼츠와 16:9 뮤직비디오 렌더 → 업로드 플랜까지 자동화합니다.
 
@@ -116,7 +115,9 @@ Tests use a fake LLM provider, a mock ACE-Step transport, and a synthetic audio
 fixture — no API key, no model, no network required.
 
 ## License
-[Apache-2.0](LICENSE). Third-party components and their terms are listed in
+
+Apache-2.0 — see [LICENSE](LICENSE). Security policy: [SECURITY.md](SECURITY.md).
+Third-party components and their terms are listed in
 [THIRD_PARTY.md](THIRD_PARTY.md) and [NOTICE](NOTICE). Generated lyrics and audio
 follow the terms of the backends you choose; SongForge claims no ownership over
 your output.

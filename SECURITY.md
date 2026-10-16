@@ -29,4 +29,4 @@ rather than a public issue. We aim to acknowledge reports within a few days.
   link-local / cloud-metadata IPs to avoid SSRF.
 
 ## Supported versions
-The latest released version receives fixes. SongForge targets Python 3.9+.
+The latest released version receives fixes. SongForge targets Python 3.10+.

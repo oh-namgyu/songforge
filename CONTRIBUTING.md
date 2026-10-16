@@ -9,7 +9,7 @@ Thanks for your interest! SongForge turns a topic into a finished, publishable s
 git clone https://github.com/oh-namgyu/songforge
 cd songforge
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt                  # runtime deps + pytest
 cp .env.example .env                                 # fill in your own keys
 ```
 
@@ -18,10 +18,10 @@ ACE-Step (music/vocals) is **bring-your-own** — see [ACE_STEP_API.md](ACE_STEP
 ## Running tests
 
 ```bash
-python -m unittest discover -s tests -p "test_*.py" -v
+python -m pytest
 ```
 
-CI runs the same on Python 3.9 and 3.11 plus a `gitleaks` secret scan. Please make sure tests pass
+CI runs the same on Python 3.10 and 3.12 plus a `gitleaks` secret scan. Please make sure tests pass
 and no secrets are committed before opening a PR.
 
 ## Guidelines

@@ -109,10 +109,19 @@ client/server must share a filesystem — see [ACE_STEP_API.md](ACE_STEP_API.md)
 
 ## Testing
 ```bash
-python -m unittest discover -s tests
+pip install -r requirements-dev.txt   # runtime deps + pytest
+python -m pytest
 ```
+The tests are plain `unittest` cases, so `python -m unittest discover -s tests`
+also works without pytest.
+
 Tests use a fake LLM provider, a mock ACE-Step transport, and a synthetic audio
 fixture — no API key, no model, no network required.
+
+**Skipped without ffmpeg.** `tests/test_chorus.py` generates its audio fixture
+with ffmpeg, so it is skipped when ffmpeg is not on your `PATH` and
+`FFMPEG_PATH` is unset. pytest prints the reason in its summary
+(`SKIPPED ... ffmpeg not found`). CI installs ffmpeg, so every test runs there.
 
 ## License
 

@@ -35,7 +35,7 @@ def _make_fixture(path):
     ], check=True, capture_output=True)
 
 
-@unittest.skipUnless(_have_ffmpeg(), "ffmpeg not available")
+@unittest.skipUnless(_have_ffmpeg(), "ffmpeg not found: install it or set FFMPEG_PATH")
 class ChorusTest(unittest.TestCase):
     def test_finds_loud_section(self):
         with tempfile.TemporaryDirectory() as d:

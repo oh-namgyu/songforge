@@ -15,3 +15,8 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/oh-namgyu/songforge"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Always list skip reasons (e.g. ffmpeg missing) in the summary, so a skip is never silent.
+addopts = "-rs"
